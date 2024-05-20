@@ -16,7 +16,7 @@ nav#menu li{
 }
 body{
     background: rgb(74,7,191);
-background: linear-gradient(90deg, rgba(74,7,191,1) 0%, rgb(58, 19, 130) 35%, rgba(55,0,255,1) 100%);
+
 }
 header{
     background-color: antiquewhite;
@@ -24,4 +24,3 @@ header{
     padding-bottom: 60px;
     position: relative;
 }
-tem menu de contexto
