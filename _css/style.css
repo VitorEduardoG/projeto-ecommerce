@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
  
 nav#menu ul{
@@ -8,7 +9,7 @@ nav#menu ul{
     list-style: none;
     position: absolute;
     top: 60px;
-    left: 970px;
+    left: 930px;
 }
 nav#menu{
     display: block;
@@ -16,11 +17,11 @@ nav#menu{
  
 nav#menu li{
     display: inline-block;
-    background-color:rgb(74,7,191);
+    background-color:rgb(89, 21, 206);
     padding: 10px;
 }
 body{
-    background:rgb(74,7,191);
+    background:rgb(89, 21, 206);
 
 }
 header{
@@ -28,4 +29,22 @@ header{
     padding-top: 70px;
     padding-bottom: 12px;
     position: relative; 
+}
+
+/*Pseudoclasses para estilização de menu de navegação*/
+nav#menu a:link{
+    text-decoration: none;
+    color: antiquewhite;
+    font-weight: bold;
+}
+nav#menu a:visited{
+    text-decoration: none;
+    color: antiquewhite;
+    font-weight: bold;
+}
+nav#menu a:hover{
+    color:rgb(46, 5, 116);
+}
+nav#menu li:hover{
+    background-color:rgb(71, 13, 170); 
 }
