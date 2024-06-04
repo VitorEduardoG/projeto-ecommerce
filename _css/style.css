@@ -48,3 +48,15 @@ nav#menu a:hover{
 nav#menu li:hover{
     background-color:rgb(71, 13, 170); 
 }
+/* Manipulação de imagens do projeto, na página produtos */
+.produtos img{
+    max-height: 300px;
+}
+
+.produtos p{
+    color: white;
+}
+
+.precoDesc{
+    font-size: 30px;
+}
