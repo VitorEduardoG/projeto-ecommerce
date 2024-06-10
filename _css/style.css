@@ -50,7 +50,7 @@ nav#menu li:hover{
 }
 /* Manipulação de imagens do projeto, na página produtos */
 .produtos img{
-    max-height: 300px;
+    max-height: 200px;
 }
 
 .produtos p{
