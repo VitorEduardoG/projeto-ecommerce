@@ -50,7 +50,7 @@ nav#menu li:hover{
 }
 /* Manipulação de imagens do projeto, na página produtos */
 .produtos img{
-    max-height: 200px;
+    max-height: 250px;
 }
 
 .produtos p{
@@ -60,3 +60,4 @@ nav#menu li:hover{
 .precoDesc{
     font-size: 30px;
 }
+
